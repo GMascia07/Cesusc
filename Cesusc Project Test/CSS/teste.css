@@ -1,0 +1,32 @@
+/* Estilo básico para o carrossel */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Personalizar a legenda do carrossel */
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+/* Ajuste da altura para o carrossel */
+.carousel {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilos adicionais para o botão de controle */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Cor da seta */
+}
+
+/* Adiciona bordas nas imagens (opcional) */
+.carousel-item img {
+    border: 5px solid #fff;
+}

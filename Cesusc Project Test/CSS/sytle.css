@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    padding:0;
+    border:0;
+}
+header{
+    text-align: center;
+    background-color: black;
+    color: red;
+    padding: 1rem;
+    font-size: 2rem;
+}
+div{
+    text-align: center;
+}
+footer{
+    text-align: left;
+    background-color: black;
+    color: red;
+    padding: 1rem;
+    font-size: 0.9rem;    
+}
+.title{
+    border-radius: 70rem;
+    background-color: rgb(46, 44, 44);
+    padding: 0.7rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    color: white;     
+    text-align: center;
+}
+h3{
+    color: white;
+    margin: 0.5;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Estilo básico para o carrossel */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Personalizar a legenda do carrossel */
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+/* Ajuste da altura para o carrossel */
+.carousel {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilos adicionais para o botão de controle */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Cor da seta */
+}
+
+/* Adiciona bordas nas imagens (opcional) */
+.carousel-item img {
+    border: 5px solid #fff;
+}
